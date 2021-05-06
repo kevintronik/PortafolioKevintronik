@@ -1,0 +1,76 @@
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>KEVINTRONIK</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+  <!--PWA-->
+<meta name="theme-color" content="#F0DB4F">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="shortcut icon" type="image/png" href="../img/logo.png">
+<link rel="apple-touch-icon" href="../img/logo.png">
+<link rel="apple-touch-startup-image" href="../img/logo.png">
+<link rel="manifest" href="manifest.json">
+<!--PWA-->
+  <!-- <link rel="stylesheet" href="../BTN/style.css"> -->
+      <link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".content").fadeOut(1500);
+    },2000);
+	
+    setTimeout(function() {
+        $(".content2").fadeIn(1500);
+    },4000);
+});
+</script>
+  
+</head>
+
+<body>
+     <!-- <audio autoplay src="../audio/BienvenidoDemo.mp3" hidden="true"></audio> -->
+  <div class="element">
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="loading-reveal">
+      <div class="loading-left"></div>
+      <div class="loading-right">
+        <div class="loading-reveal-b">
+        
+        </div>
+      </div>
+    </div>
+    <div class="bustle-gem">
+    <div class="logo"><a href="javascript: loaded();"><img src="PNG/logo.png" title="CONTINUAR"></a></div>
+    </div>
+  </div>
+</div>
+<!-- 
+<div class="controls">
+    <div id="content" >
+            <div class="content">loading...</div>
+            <div class="content2" style="display:none;">  <a href="javascript: loaded();">
+             <span>CONTINUAR</span>
+                <div class="liquid"></div></a></div>
+        </div> -->
+  
+   
+
+
+</div>
+  
+  
+
+    <script  src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
